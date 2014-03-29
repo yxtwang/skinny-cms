@@ -1,4 +1,10 @@
-skinny-cms
-==========
+## Skinny application
 
-skinny cms scala
+Run Skinny app now!
+
+    ./skinny run
+
+### Skinny Framework
+
+http://skinny-framework.org/
+
