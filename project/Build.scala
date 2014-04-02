@@ -26,10 +26,6 @@ object SkinnyAppBuild extends Build {
     version      := "0.1.0-SNAPSHOT",
     scalaVersion := "2.10.4",
     libraryDependencies := Seq(
-      //webjars
-      "org.webjars" % "bootstrap" % "3.1.1" exclude("org.webjars", "jquery"),
-      "org.webjars" % "jquery" % "2.1.0-2",
-
       "org.skinny-framework"    %% "skinny-framework"   % skinnyVersion,
       "org.skinny-framework"    %% "skinny-assets"      % skinnyVersion,
       "org.skinny-framework"    %% "skinny-task"        % skinnyVersion,
